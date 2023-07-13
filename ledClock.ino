@@ -8,8 +8,8 @@ const char* ssid = "your_ssid";  //wifi ssid
 const char* password = "your_pass";   //wifi password
 
 //display setup
-#define DISPLAYS_WIDE 1 // Panel Columns
-#define DISPLAYS_HIGH 1 // Panel row
+#define DISPLAYS_WIDE 1 // Panel columns
+#define DISPLAYS_HIGH 1 // Panel rows
 DMDESP Disp(DISPLAYS_WIDE, DISPLAYS_HIGH);  // Number of P10 Panels used (COLUMN,ROWS)
 
 //----------------------------------------------------------------------
